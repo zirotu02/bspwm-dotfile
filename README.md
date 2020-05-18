@@ -13,6 +13,7 @@
 -rofi <br />
 -scrot <br />
 -ttf-ubuntu-font-family <br />
+-sxhkd <br />
 <br /><br />
 
 
