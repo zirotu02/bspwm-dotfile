@@ -3,7 +3,7 @@
 project:dotfiles:https://github.com/raj-shekhar26/dotfiles/tree/master/bspwm
 author:https://github.com/raj-shekhar26
 <br /><br />
-**This is strictly for arch linux (name of dependencies can be different in other distro)**
+**This is for arch linux (name of dependencies can be different in other distro)**
 <br /><br />
 ![Screenshot](neofetch.png) <br/>
 ![Screenshot](show.png)<br />
