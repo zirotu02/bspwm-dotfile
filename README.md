@@ -1,5 +1,8 @@
 # bspwm-dotfiles
-
+/*
+project:dotfiles:https://github.com/raj-shekhar26/dotfiles/tree/master/bspwm
+author:https://github.com/raj-shekhar26
+*/
 **This is strictly for arch linux (name of dependencies can be different in other distro)**
 <br /><br />
 ![Screenshot](neofetch.png) <br/>
@@ -48,7 +51,7 @@ defaults.ctl.card 1 <br />
 -wallpaper (https://www.pexels.com/photo/1287075/download/?search_query=&tracking_id=5iwz41q8veo)
 
 ## keybindings(listed only frequently used by me, open sxhkdrc for all keybindings)
-- super = windows key
+-super = windows key
 <br/><br/>
 -kitty (terminal) [super+return] <br />
 -code (text editor) [super+shift+c] <br />
@@ -64,4 +67,4 @@ defaults.ctl.card 1 <br />
 -move window to a specific workspace [super+shift+{1-7}] <br />
 -switch workspace left and right [super+"["/"]"]<br />
 ## note :
-i use spotify but there is configuration for "ncmpcpp" ,if you want to use terminal player.
+-i use spotify but there is configuration for "ncmpcpp" ,if you want to use terminal player.
