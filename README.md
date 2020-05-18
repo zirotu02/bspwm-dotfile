@@ -10,12 +10,14 @@
 -dunst                  (notification provider)<br />
 -kitty                  (terminal)<br />
 -lxappearance           (set theme)<br />
+-mpc                    (media keybinding)<br />
 -otf-font-awesome       (polybar font)<br />
 -compton-tryone-git     (compositer)<br />
 -polybar                (top bar)<br />
 -pcmanfm                (file manager)<br />
 -rofi                   (shortcut menu)<br />
 -scrot                  (screenshot)<br />
+-spotify                (musicplayer)<br />
 -sxhkd                  (setting key shortcut)<br />
 -ttf-ubuntu-font-family (system font)<br />
 -xf86-video-intel       (for screen brightness)<br />
@@ -44,3 +46,22 @@ defaults.ctl.card 1 <br />
 ## theme (set from lxapperance)
 -qogir-dark <br />
 -wallpaper (https://www.pexels.com/photo/1287075/download/?search_query=&tracking_id=5iwz41q8veo)
+
+## keybindings(listed only frequently used by me, open sxhkdrc for all keybindings)
+- super = windows key
+<br/><br/>
+-kitty (terminal) [super+return] <br />
+-code (text editor) [super+shift+c] <br />
+-pcmanfm (file manager) [super+shift+f] <br />
+-shutdown [super+F1] <br />
+-reboot [super+F2] <br />
+-logout [super+shift+q] <br />
+-screenshot [print] <br />
+-rofi (program launcher) [super+d] <br />
+-tiling mode [super+t] <br />
+-fullscreen mode [super+f] <br />
+-switch workspace [super+{1-7}] <br />
+-move window to a specific workspace [super+shift+{1-7}] <br />
+-switch workspace left and right [super+"["/"]"]<br />
+## note :
+i use spotify but there is configuration for "ncmpcpp" ,if you want to use terminal player.
