@@ -5,17 +5,19 @@
 ![Screenshot](neofetch.png) 
 <br /><br />
 ## base dependencies:
--bspwm <br />
--dunst <br />
--kitty <br />
--lxappearance <br />
--otf-font-awesome <br />
--compton-tryone-git <br />
--polybar <br />
--rofi <br />
--scrot <br />
--ttf-ubuntu-font-family <br />
--sxhkd <br />
+-bspwm                  (window manager)<br />
+-dunst                  (notification provider)<br />
+-kitty                  (terminal)<br />
+-lxappearance           (set theme)<br />
+-otf-font-awesome       (polybar font)<br />
+-compton-tryone-git     (compositer)<br />
+-polybar                (top bar)<br />
+-rofi                   (shortcut menu)<br />
+-scrot                  (screenshot)<br />
+-sxhkd                  (setting key shortcut)<br />
+-ttf-ubuntu-font-family (system font)<br />
+-xf86-video-intel       (for screen brightness)<br />
+-xorg-xbacklight        (for screen brightness)<br />
 <br /><br />
 
 
@@ -31,16 +33,10 @@
 -open terminal and find your card using this cmnd (cat proc/asound/cards) <br />
 (my card was "1") <br />
 
-### then create a file (/etc/asound.conf) and enter this :(replace 1 with your card)
+-then create a file (/etc/asound.conf) and enter this :(replace 1 with your card) <br />
 defaults.pcm.card 1 <br />
 defaults.ctl.card 1 <br />
 
 
-
-## guide to setup brightness:
--xf86-video-intel <br />
--xorg-xbacklight <br />
-
-
 ## theme (set from lxapperance)
--qogir-dark (put this folder in ~/.themes)
+-qogir-dark
