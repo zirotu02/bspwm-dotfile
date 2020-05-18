@@ -35,6 +35,6 @@ defaults.ctl.card 1 <br />
 
 
 
-## guide to setup brightness:#
+## guide to setup brightness:
 -xf86-video-intel <br />
 -xorg-xbacklight <br />
