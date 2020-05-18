@@ -32,7 +32,6 @@ author:https://github.com/raj-shekhar26
 
 
 ## guide to setup audio: (alsa is used in sxhkd to set volume up/down)
-<br /><br />
 ### dependencies:
 -alsa-libs <br />
 -alsa-utils <br />
