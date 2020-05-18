@@ -18,6 +18,7 @@
 -ttf-ubuntu-font-family (system font)<br />
 -xf86-video-intel       (for screen brightness)<br />
 -xorg-xbacklight        (for screen brightness)<br />
+-feh                    (to set background)
 <br /><br />
 
 
@@ -39,4 +40,5 @@ defaults.ctl.card 1 <br />
 
 
 ## theme (set from lxapperance)
--qogir-dark
+-qogir-dark <br />
+-wallpaper (https://www.pexels.com/photo/1287075/download/?search_query=&tracking_id=5iwz41q8veo)
