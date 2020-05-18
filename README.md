@@ -12,6 +12,7 @@
 -otf-font-awesome       (polybar font)<br />
 -compton-tryone-git     (compositer)<br />
 -polybar                (top bar)<br />
+-pcmanfm                (file manager)<br />
 -rofi                   (shortcut menu)<br />
 -scrot                  (screenshot)<br />
 -sxhkd                  (setting key shortcut)<br />
