@@ -8,7 +8,7 @@
 -kitty <br />
 -lxappearance <br />
 -otf-font-awesome <br />
--picom <br />
+-compton-tryone-git <br />
 -polybar <br />
 -rofi <br />
 -scrot <br />
@@ -27,7 +27,7 @@
 
 ### steps:
 -open terminal and find your card using this cmnd (cat proc/asound/cards) <br />
--my card was "1" <br />
+(my card was "1") <br />
 
 ### then create a file (/etc/asound.conf) and enter this :(replace 1 with your card)
 defaults.pcm.card 1 <br />
