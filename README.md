@@ -2,6 +2,8 @@
 
 **This is strictly for arch linux (name of dependencies can be different in other distro)**
 <br /><br />
+![Screenshot](neofetch.png) 
+<br /><br />
 ## base dependencies:
 -bspwm <br />
 -dunst <br />
