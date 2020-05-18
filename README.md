@@ -41,5 +41,4 @@ defaults.ctl.card 1 <br />
 
 
 ## theme (set from lxapperance)
--qogir-dark <br />
-  -(put this folder in ~/.themes)
+-qogir-dark (put this folder in ~/.themes)
