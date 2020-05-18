@@ -18,7 +18,7 @@
 
 
 
-## guide to setup audio:(this guide is to use amixer in terminal)
+## guide to setup audio: (alsa is used in sxhkd to set volume up/down)
 <br /><br />
 ### dependencies:
 -alsa-libs <br />
