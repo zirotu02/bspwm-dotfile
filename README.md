@@ -1,6 +1,8 @@
 # bspwm-dotfiles
-<project:dotfiles:https://github.com/raj-shekhar26/dotfiles/tree/master/bspwm
-author:https://github.com/raj-shekhar26>
+<!---
+project:dotfiles:https://github.com/raj-shekhar26/dotfiles/tree/master/bspwm
+author:https://github.com/raj-shekhar26
+-->
 <br />
 **This is strictly for arch linux (name of dependencies can be different in other distro)**
 <br /><br />
