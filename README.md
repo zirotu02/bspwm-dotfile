@@ -13,7 +13,6 @@
 -rofi <br />
 -scrot <br />
 -ttf-ubuntu-font-family <br />
-
 <br /><br />
 
 
@@ -38,3 +37,8 @@ defaults.ctl.card 1 <br />
 ## guide to setup brightness:
 -xf86-video-intel <br />
 -xorg-xbacklight <br />
+
+
+## theme (set from lxapperance)
+-qogir-dark 
+  -(put this folder in ~/.themes)
