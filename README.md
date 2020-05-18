@@ -2,7 +2,8 @@
 
 **This is strictly for arch linux (name of dependencies can be different in other distro)**
 <br /><br />
-![Screenshot](neofetch.png) 
+![Screenshot](neofetch.png) <br/>
+![Screenshot](show.png)<br />
 <br /><br />
 ## base dependencies:
 -bspwm                  (window manager)<br />
