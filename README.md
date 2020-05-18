@@ -1,6 +1,7 @@
 # bspwm-dotfiles
 
 **This is strictly for arch linux (name of dependencies can be different in other distro)**
+<br />
 ![Screenshot](neofetch.png)
 
 <br /><br />
