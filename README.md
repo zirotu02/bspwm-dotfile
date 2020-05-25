@@ -1,8 +1,5 @@
 # bspwm-dotfiles
 
-project:dotfiles:https://github.com/raj-shekhar26/dotfiles/tree/master/bspwm
-author:https://github.com/raj-shekhar26
-<br /><br />
 **This is for arch linux (name of dependencies may be different in other distro)**
 <br /><br />
 ![Screenshot](neofetch.png) <br/>
