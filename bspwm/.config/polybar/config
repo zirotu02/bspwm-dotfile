@@ -12,7 +12,8 @@ red = #FF686B
 darkred = #7F1A22
 pink = #ef476f
 brown = b4896e
-
+inactive-color= #5D6D7E
+active-color=#FDFEFE
 [bar/mybar]
 override-redirect = true
 bottom = false
@@ -93,18 +94,18 @@ ws-icon-5 = movie;
 ws-icon-6 = extra;
 
 label-focused = %icon% %name%
-label-focused-foreground = ${colors.bg}
+label-focused-foreground = ${colors.active-color}
 label-focused-padding = 2
 
 label-occupied = %icon%
 label-occupied-padding = 2
-label-occupied-foreground = ${colors.yellow}
+label-occupied-foreground = ${colors.foreground}
 label-urgent = %icon%
 label-urgent-background = ${colors.red}
 label-urgent-padding = 2
 
 label-empty = %icon%
-label-empty-foreground = ${colors.foreground}
+label-empty-foreground = ${colors.inactive-color}
 label-empty-padding = 2
 
 [module/xwindow]
