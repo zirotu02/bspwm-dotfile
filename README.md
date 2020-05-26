@@ -8,6 +8,7 @@
 ## base dependencies:
 -bspwm                  (window manager)<br />
 -dunst                  (notification provider)<br />
+-feh                    (to set background)<br />
 -kitty                  (terminal)<br />
 -lxappearance           (set theme)<br />
 -mpc                    (media keybinding)<br />
@@ -22,7 +23,7 @@
 -ttf-ubuntu-font-family (system font)<br />
 -xf86-video-intel       (for screen brightness)<br />
 -xorg-xbacklight        (for screen brightness)<br />
--feh                    (to set background)
+-xorg-xsetroot		(enable cursor pointor)<br />
 <br /><br />
 
 
