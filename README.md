@@ -13,7 +13,7 @@
 -lxappearance           (set theme)<br />
 -mpc                    (media keybinding)<br />
 -otf-font-awesome       (polybar font)<br />
--compton-tryone-git     (compositer)<br />
+-picom                  (compositer)<br />
 -polybar                (top bar)<br />
 -pcmanfm                (file manager)<br />
 -rofi                   (shortcut menu)<br />

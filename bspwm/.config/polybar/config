@@ -130,7 +130,7 @@ type                  = internal/volume
 format-volume-padding = 1
 format-muted-padding  = 1
 format-volume         = <ramp-volume>  <label-volume>
-label-volume          = %percentage%
+label-volume          = %percentage%%
 label-muted           = 
 ramp-volume-0         = 
 
@@ -184,7 +184,7 @@ type = internal/xbacklight
 
 card = intel_backlight
 format = <ramp> <label>
-label =  %percentage% %
+label =  %percentage%%
 ramp-0 =  
 
 
