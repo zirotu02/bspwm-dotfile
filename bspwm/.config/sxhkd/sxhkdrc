@@ -6,7 +6,7 @@ super + Return
 # app keybindings
 
 super + shift + b
-	google-chrome-unstable
+	firefox
 
 super + shift + c
 	code
