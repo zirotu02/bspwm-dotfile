@@ -20,10 +20,10 @@ super + shift + m
 # brightness keybindings
 
 XF86MonBrightnessUp
-	xbacklight -inc 10
+	brightnessctl s +5%
 
 XF86MonBrightnessDown
-	xbacklight -dec 10
+	brightnessctl s 5%-
 
 # media keybindings
 
