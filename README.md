@@ -21,8 +21,8 @@
 -spotify                (musicplayer)<br />
 -sxhkd                  (setting key shortcut)<br />
 -ttf-ubuntu-font-family (system font)<br />
--xf86-video-intel       (for screen brightness)<br />
--xorg-xbacklight        (for screen brightness)<br />
+-xf86-video-amd       (for screen brightness)<br />
+-brightnessctl       (for screen brightness)<br />
 -xorg-xsetroot		(enable cursor pointor)<br />
 <br /><br />
 
