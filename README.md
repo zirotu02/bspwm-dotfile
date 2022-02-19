@@ -26,8 +26,9 @@
 -xorg-xsetroot		(enable cursor pointor)<br />
 <br /><br />
 
+sudo pacman -S bspwm dunst feh kitty lxappearance mpc otf-font-awesome picom pcmanfm rofi scrot sxhkd ttf-ubuntu-font-family xorg-xsetroot brightnessctl
 
-
+paru -S polybar
 
 ## guide to setup audio: (alsa is used in sxhkd to set volume up/down)
 ### dependencies:
