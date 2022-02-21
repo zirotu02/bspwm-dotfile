@@ -170,8 +170,8 @@ label =  %percentage%%
 
 [module/wireless-network]
 type = internal/network
-interface = wlp3s0
-interval = 3.0
+interface = wlo1
+interval = 2.0
 
 unknown-as-up = true
 accumulate-stats = true
@@ -182,7 +182,7 @@ label-connected = " %essid%"
 [module/backlight]
 type = internal/xbacklight
 
-card = intel_backlight
+card = amdgpu_bl0
 format = <ramp> <label>
 label =  %percentage%%
 ramp-0 =  
@@ -208,3 +208,6 @@ menu-0-0-exec = systemctl reboot
 menu-0-1 = " power off  "
 menu-0-1-exec = systemctl poweroff
 
+
+menu-0-2 = " logout "
+menu-0-1-exec = bspc quit
