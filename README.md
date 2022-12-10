@@ -26,22 +26,30 @@
 -xorg-xsetroot		(enable cursor pointor)<br />
 <br /><br />
 
+##for arch based distro
+
 sudo pacman -S bspwm dunst feh kitty lxappearance mpc otf-font-awesome picom pcmanfm rofi scrot sxhkd ttf-ubuntu-font-family xorg-xsetroot brightnessctl
 
 paru -S polybar
 
-## guide to setup audio: (alsa is used in sxhkd to set volume up/down)
-### dependencies:
--alsa-libs <br />
--alsa-utils <br />
+##for debian based distro
+sudo apt install bspwm dunst feh kitty lxappearance mpc fonts-font-awesome picom pcmanfm rofi scrot sxhkd ttf-ubuntu-font-family xorg-xsetroot brightnessctl
 
-### steps:
--open terminal and find your card using this cmnd (cat proc/asound/cards) <br />
-(my card was "1") <br />
+##enable tap to click for laptop touchpad
 
--then create a file (/etc/asound.conf) and enter this :(replace 1 with your card) <br />
-defaults.pcm.card 1 <br />
-defaults.ctl.card 1 <br />
+open this file
+
+  /usr/share/X11/xorg.conf.d/40-libinput.conf
+
+add this lines at the end of file.
+
+Section "InputClass"
+        Identifier "libinput touchpad catchall"
+        MatchIsTouchpad "on"
+        MatchDevicePath "/dev/input/event*"
+        Driver "libinput"
+        Option "Tapping" "on"
+EndSection
 
 
 ## theme (set from lxapperance)
