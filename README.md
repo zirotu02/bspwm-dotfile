@@ -17,7 +17,7 @@
 -polybar                (top bar)<br />
 -pcmanfm                (file manager)<br />
 -rofi                   (shortcut menu)<br />
--scrot                  (screenshot)<br />
+-flameshot                  (screenshot)<br />
 -spotify                (musicplayer)<br />
 -sxhkd                  (setting key shortcut)<br />
 -ttf-ubuntu-font-family (system font)<br />
@@ -28,12 +28,12 @@
 
 ##for arch based distro
 
-sudo pacman -S bspwm dunst feh kitty lxappearance mpc otf-font-awesome picom pcmanfm rofi scrot sxhkd ttf-ubuntu-font-family xorg-xsetroot brightnessctl
+sudo pacman -S bspwm dunst feh kitty lxappearance mpc otf-font-awesome picom pcmanfm rofi flameshot sxhkd ttf-ubuntu-font-family xorg-xsetroot brightnessctl
 
 paru -S polybar
 
 ##for debian based distro
-sudo apt install bspwm dunst feh kitty lxappearance mpc fonts-font-awesome picom pcmanfm rofi scrot sxhkd ttf-ubuntu-font-family xorg-xsetroot brightnessctl
+sudo apt install bspwm dunst feh kitty lxappearance mpc fonts-font-awesome picom pcmanfm rofi flameshot sxhkd ttf-ubuntu-font-family xorg-xsetroot brightnessctl
 
 ##enable tap to click for laptop touchpad
 
@@ -69,7 +69,7 @@ sudo usermod -aG video ${USER}
 -shutdown [super+F1] <br />
 -reboot [super+F2] <br />
 -logout [super+shift+q] <br />
--screenshot [print] <br />
+-screenshot [shift+print] <br />
 -rofi (program launcher) [super+d] <br />
 -tiling mode [super+t] <br />
 -fullscreen mode [super+f] <br />

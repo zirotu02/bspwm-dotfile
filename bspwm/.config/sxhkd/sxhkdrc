@@ -69,12 +69,8 @@ super + F5
 
 # screenshot keybindings
 
-shift + print
-	sleep 0.25 && scrot -s '/home/zirotu/Pictures/Screenshots/%Y-%m-%d-%H-%M-%S.png'
-	
-Print
-	@Print && scrot -s
-    scrot -s $HOME/'Pictures/Screenshots/%Y-%m-%d_%H%M%S-$wx$h_scrot.png'
+shift + Print
+	flameshot full -p ~/Pictures/Screenshots
 
 ctrl + Print
 	scrot $HOME/'Pictures/Screenshots/%Y-%m-%d_%H%M%S-$wx$h_scrot.png'
