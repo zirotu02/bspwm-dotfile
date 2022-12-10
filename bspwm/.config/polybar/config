@@ -120,9 +120,9 @@ label-maxlen = 30
 type = internal/date
 interval = 5
 time = %I:%M:%p
-date = %d-%m-%y
+date = %d-%m-%Y
 format-prefix = "  "
-label = " %date%   %time% "
+label = " %date%    %time% "
 
 
 [module/volume]
