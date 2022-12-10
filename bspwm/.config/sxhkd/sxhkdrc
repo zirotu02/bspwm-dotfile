@@ -69,14 +69,15 @@ super + F5
 
 # screenshot keybindings
 
-shift + Print
-	scrot -s '/home/malay/Pictures/Screenshots/%Y-%m-%d-%H-%M-%S.png'
+shift + print
+	sleep 0.25 && scrot -s '/home/zirotu/Pictures/Screenshots/%Y-%m-%d-%H-%M-%S.png'
 	
 Print
-	scrot '/home/malay/Pictures/Screenshots/%Y-%m-%d-%H-%M-%S.png'
+	@Print && scrot -s
+    scrot -s $HOME/'Pictures/Screenshots/%Y-%m-%d_%H%M%S-$wx$h_scrot.png'
 
 ctrl + Print
-	scrot -C
+	scrot $HOME/'Pictures/Screenshots/%Y-%m-%d_%H%M%S-$wx$h_scrot.png'
 
 # program launcher
 super + d

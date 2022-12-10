@@ -5,8 +5,8 @@ xsetroot -cursor_name left_ptr &
 discord &
 bspc monitor -d terminal firefox code files music movie extra
 
-bspc config top_padding         24
-bspc config border_width         0
+bspc config top_padding         28
+bspc config border_width        2
 bspc config window_gap          12
 
 bspc config split_ratio          0.52
