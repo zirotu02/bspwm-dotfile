@@ -1,7 +1,8 @@
 configuration {
-/*	modi: "run,ssh";*/
-    theme: "slate";
-    width: 30;
+/*
+	theme: "slate";
+	modi: "run,ssh";*/
+    	width: 30;
 	lines: 5;
 	columns: 1;
 	font: "Noto Sans 10";
