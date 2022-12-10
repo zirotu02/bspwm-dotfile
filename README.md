@@ -51,6 +51,10 @@ Section "InputClass"
         Option "Tapping" "on"
 EndSection
 
+## if brightness doesnt work enter this command in terminal
+
+sudo usermod -aG video ${USER}
+
 
 ## theme (set from lxapperance)
 -qogir-dark <br />
