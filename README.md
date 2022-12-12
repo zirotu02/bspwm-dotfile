@@ -2,7 +2,6 @@
 
 **This is for arch linux (name of dependencies may be different in other distro)**
 <br /><br />
-![Screenshot](neofetch.png) <br/>
 ![Screenshot](show.png)<br />
 <br /><br />
 ## base dependencies:
